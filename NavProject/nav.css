@@ -9,7 +9,7 @@ html {
     
 }
 .container {
-    
+    position: absolute;
     width: 600px;
     height: 600px;
     overflow: hidden;
@@ -29,6 +29,7 @@ html {
     width:150px;
      margin-left:-15px;
     margin-top: 70px;
+    
 }
 
 .circlecontainern {
