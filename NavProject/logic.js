@@ -25,11 +25,10 @@ $(document).ready(function(){
     });
     
     
- var text = ["Embracing personal responsibility to act in anticipation of perceived problems and opportunities while fully owning actions, behaviors, and outcomes.","Simple behavioral, technical, and organizational aids for rapidly growing Reliability, Efficiency, Productivity, and Safety.", "Building relationships while aligning attitudes and actions with organizational Core Principles.", "Sharing, understanding, and acting upon insights gained from organizational activities, conditions, and outcomes."]
+ 
     
  
      
  });
     
     
-});
