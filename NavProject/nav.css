@@ -1,5 +1,5 @@
 * {
-    border:1px solid #000;
+    
   margin: 0;
   padding: 0;
   -webkit-backface-visibility: hidden;
@@ -28,10 +28,6 @@
  
 }
 
-
-
-
-
 /*LITTLE CIRCLES*/
 .circle li {
     
@@ -46,8 +42,10 @@
   box-shadow: 0px 0px 30px rgba(0,0,0,0.3);
 }
 
-.circle li:hover {
-    background: #274571 ;
+.circle li:hover, .circle li.hover {
+     
+    transition: all 0.25s ease-in-out 0s;
+    background: blue;
     
 }
 .circle li:nth-child(1) {
