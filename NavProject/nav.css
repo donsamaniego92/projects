@@ -23,8 +23,8 @@
   height: 400px;
   border-radius: 50%;
   background: #fff;
-  box-shadow: 1px 1px 30px #c6c6c6;
-  
+ 
+   box-shadow: inset 0px 0px 30px rgba(0,0,0,0.3);
  
 }
 
@@ -39,7 +39,7 @@
   text-align: center;
   background: black;
   color: #fff;
-  box-shadow: 1px 1px 30px #c6c6c6;
+  box-shadow: inset 1px 1px 30px #c6c6c6;
 }
 
 .circle li:hover, .circle li.hover {
@@ -47,7 +47,7 @@
     transition: all 0.25s ease-in-out 0s;
     background: white;
     color: #000;
-     box-shadow: 0.5px 0.5px 15px #000;
+     box-shadow: inset 0px 0px 30px rgba(0,0,0,0.3);
      
      
 }
