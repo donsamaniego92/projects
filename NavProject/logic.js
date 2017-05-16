@@ -1,10 +1,9 @@
 $(document).ready(function() {
 
+$(".circle li").each(function(i) {
 
-    $(".circle li").each(function(i) {
 
-
-        $(this).delay(500 * i)
+        $(this).delay(400 * i)
 
 
             .css({
@@ -18,6 +17,7 @@ $(document).ready(function() {
 
 
     });
+    
 
 
     var count = 1;
