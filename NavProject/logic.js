@@ -14,8 +14,6 @@ $(".circle li").each(function(i) {
                 opacity: 1
             }, 500);
 
-
-
     });
     
 
