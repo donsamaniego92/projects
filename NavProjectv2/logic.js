@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$(".circle li").each(function(i) {
+$(".circulo li").each(function(i) {
 
 
         $(this).delay(400 * i)
@@ -25,9 +25,9 @@ $(".circle li").each(function(i) {
         if (count == 1) {
 
 
-            $(".circle li").each(function() {
-                $(".circle li").eq(3).removeClass('hover');
-                $(".circle li").eq(0).addClass('hover');
+            $(".circulo li").each(function() {
+                $(".circulo li").eq(3).removeClass('hover');
+                $(".circulo li").eq(0).addClass('hover');
                 
                 $("#image").attr("src","https://www.ppiweb.net/wp-content/uploads/2017/05/Section-3-TOOLs.png");
 
@@ -35,25 +35,25 @@ $(".circle li").each(function(i) {
             count = 2;
 
         } else if (count == 2) {
-            $(".circle li").each(function() {
-                $(".circle li").eq(0).removeClass('hover');
-                $(".circle li").eq(1).addClass('hover');
+            $(".circulo li").each(function() {
+                $(".circulo li").eq(0).removeClass('hover');
+                $(".circulo li").eq(1).addClass('hover');
                 $("#image").attr("src","https://www.ppiweb.net/wp-content/uploads/2017/05/Section-3-PBE.png");
          
             });
             count = 3;
 
         } else if (count == 3) {
-            $(".circle li").each(function() {
-                $(".circle li").eq(1).removeClass('hover');
-                $(".circle li").eq(2).addClass('hover');
+            $(".circulo li").each(function() {
+                $(".circulo li").eq(1).removeClass('hover');
+                $(".circulo li").eq(2).addClass('hover');
                 $("#image").attr("src","https://www.ppiweb.net/wp-content/uploads/2017/05/Section-3-Learning.png");      
             });
             count = 4;
         } else if (count == 4) {
-            $(".circle li").each(function() {
-                $(".circle li").eq(2).removeClass('hover');
-                $(".circle li").eq(3).addClass('hover');
+            $(".circulo li").each(function() {
+                $(".circulo li").eq(2).removeClass('hover');
+                $(".circulo li").eq(3).addClass('hover');
                 $("#image").attr("src","https://www.ppiweb.net/wp-content/uploads/2017/05/Section-3-PA.png");
 
                 
@@ -61,33 +61,33 @@ $(".circle li").each(function(i) {
             count = 1;
         }
 
-        $(".circle li","#icon").mouseover(function() {
+        $(".circulo li","#icono").mouseover(function() {
 
             count = 0;
 
-            if ($(".circle li").eq(0)) {
-                $(".circle li").eq(1).removeClass('hover');
-                $(".circle li").eq(2).removeClass('hover');
-                $(".circle li").eq(3).removeClass('hover');
-            } else if ($(".circle li").eq(1)) {
-                $(".circle li").eq(0).removeClass('hover');
-                $(".circle li").eq(2).removeClass('hover');
-                $(".circle li").eq(3).removeClass('hover');
-            } else if ($(".circle li").eq(2)) {
-                $(".circle li").eq(0).removeClass('hover');
-                $(".circle li").eq(1).removeClass('hover');
-                $(".circle li").eq(3).removeClass('hover');
-            } else if ($(".circle li").eq(3)) {
-                $(".circle li").eq(0).removeClass('hover');
-                $(".circle li").eq(1).removeClass('hover');
-                $(".circle li").eq(2).removeClass('hover');
+            if ($(".circulo li").eq(0)) {
+                $(".circulo li").eq(1).removeClass('hover');
+                $(".circulo li").eq(2).removeClass('hover');
+                $(".circulo li").eq(3).removeClass('hover');
+            } else if ($(".circulo li").eq(1)) {
+                $(".circulo li").eq(0).removeClass('hover');
+                $(".circulo li").eq(2).removeClass('hover');
+                $(".circulo li").eq(3).removeClass('hover');
+            } else if ($(".circulo li").eq(2)) {
+                $(".circulo li").eq(0).removeClass('hover');
+                $(".circulo li").eq(1).removeClass('hover');
+                $(".circulo li").eq(3).removeClass('hover');
+            } else if ($(".circulo li").eq(3)) {
+                $(".circulo li").eq(0).removeClass('hover');
+                $(".circulo li").eq(1).removeClass('hover');
+                $(".circulo li").eq(2).removeClass('hover');
             }
 
         });
 
 
 
-        $(".circle li").mouseleave(function() {
+        $(".circulo li").mouseleave(function() {
 
             count = 1;
         });
@@ -99,21 +99,21 @@ $(".circle li").each(function(i) {
 
 
 
-    $(".circle li:nth-child(1)").hover(function() {
+    $(".circulo li:nth-child(1)").hover(function() {
 
         
         $("#image").attr("src","https://www.ppiweb.net/wp-content/uploads/2017/05/Section-3-TOOLs.png");
 
     });
 
-    $(".circle li:nth-child(2)").hover(function() {
+    $(".circulo li:nth-child(2)").hover(function() {
 
        
          $("#image").attr("src","https://www.ppiweb.net/wp-content/uploads/2017/05/Section-3-PBE.png");
 
     });
 
-    $(".circle li:nth-child(3)").hover(function() {
+    $(".circulo li:nth-child(3)").hover(function() {
 
        
 
@@ -122,7 +122,7 @@ $(".circle li").each(function(i) {
         
     });
 
-    $(".circle li:nth-child(4)").hover(function() {
+    $(".circulo li:nth-child(4)").hover(function() {
 
        
 

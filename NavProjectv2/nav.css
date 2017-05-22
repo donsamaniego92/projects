@@ -14,7 +14,7 @@
 
 
 /*MAIN CIRCLE*/
-.circle {
+.circulo {
   position: relative;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -29,14 +29,14 @@
  
 }
 
-#icon{
+#icono{
   width:100px;
   margin-top: 10px;
   
 }
 
 /*LITTLE CIRCLES*/
-.circle li {
+.circulo li {
     
   position: absolute;
   width: 125px;
@@ -49,7 +49,7 @@
   box-shadow: inset 1px 1px 30px #c6c6c6;
 }
 
-.circle li:hover, .circle li.hover {
+.circulo li:hover, .circulo li.hover {
      
     transition: all 0.25s ease-in-out 0s;
     background: white;
@@ -59,7 +59,7 @@
     height: 26%;
      
 }
-.circle li:nth-child(1) {
+.circulo li:nth-child(1) {
   top: 1px;
   left: 185px;
  font-weight: bold;
@@ -67,7 +67,7 @@
  background: #82000a;
 }
 
-.circle li:nth-child(2) {
+.circulo li:nth-child(2) {
   top: 180px;
   left: 360px;
   font-weight: bold;
@@ -75,7 +75,7 @@
   background: #2192bd;
 }
 
-.circle li:nth-child(3) {
+.circulo li:nth-child(3) {
   top: 360px;
   left: 185px;
   font-weight: bold;
@@ -83,7 +83,7 @@
   background: #beb1ab;
 }
 
-.circle li:nth-child(4) {
+.circulo li:nth-child(4) {
   top: 189px;
   left: 11px;
   font-weight: bold;
@@ -92,7 +92,7 @@
 }
 
 /*CENTER*/
-.circle li:nth-child(5) {
+.circulo li:nth-child(5) {
   width:350px;
   height:350px;
   top: 75px;
@@ -106,13 +106,13 @@
 
 }
 
-.circle li:nth-child(5) p {
+.circulo li:nth-child(5) p {
   margin-top: 150px;
   
 }
 /*Slideshow*/
 
-.circle li:nth-child(6) {
+.circulo li:nth-child(6) {
   width:150px;
   height:150px;
   top: 100px;
