@@ -140,7 +140,7 @@ body {
     
     position: absolute;
     margin: 30px auto;
-    width: 1160px;
+    width: 100%;
 }
 /*MAIN CIRCLE*/
 
@@ -267,7 +267,7 @@ body {
     
     position: absolute;
     margin: 30px auto;
-    width: 1060px;
+    width: 100%;
 }
 /*MAIN CIRCLE*/
 
@@ -275,7 +275,7 @@ body {
     position: absolute;
     margin-top: 50px;
     margin-bottom: 20px;
-    margin-left: 350px;
+    margin-left: 30px;
     
     width: 400px;
     height: 400px;
@@ -397,7 +397,7 @@ body {
     
     position: absolute;
     margin: 30px auto;
-    width: 1060px;
+    width: 100%;
 }
 /*MAIN CIRCLE*/
 
@@ -405,7 +405,7 @@ body {
     position: absolute;
     margin-top: 50px;
     margin-bottom: 20px;
-    margin-left: 350px;
+    margin-left: 0px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
