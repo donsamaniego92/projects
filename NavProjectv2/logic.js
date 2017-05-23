@@ -3,7 +3,7 @@ $(document).ready(function() {
     $(".circle li").each(function(i) {
 
 
-        $(this).delay(1000 * i)
+        $(this).delay(300 * i)
 
 
             .css({
@@ -12,7 +12,7 @@ $(document).ready(function() {
             })
             .animate({
                 opacity: 1
-            }, 1500);
+            }, 400);
 
     });
 
@@ -94,7 +94,7 @@ $(document).ready(function() {
 
 
     }
-    setInterval(transition, 6000);
+    setInterval(transition, 10000);
 
 
 

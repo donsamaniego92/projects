@@ -18,8 +18,8 @@
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background: #fff;
-    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 0, 0, 0);
+  
 }
 /*LITTLE CIRCLES*/
 
