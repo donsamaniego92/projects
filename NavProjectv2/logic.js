@@ -94,7 +94,7 @@ $(document).ready(function() {
 
 
     }
-    setInterval(transition, 8000);
+    setInterval(transition, 6000);
 
 
 
