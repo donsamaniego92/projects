@@ -10,7 +10,7 @@ body {
 .wrapper {
     position: absolute;
     margin: 20px auto;
-    width: 1200px;
+    width: 100%;
 }
 /*MAIN CIRCLE*/
 
@@ -267,7 +267,7 @@ body {
     
     position: absolute;
     margin: 30px auto;
-    width: 600px;
+    width: 100%;
 }
 /*MAIN CIRCLE*/
 
@@ -469,6 +469,8 @@ body {
 /*Slideshow*/
 
 .circle li:nth-child(6) {} #slideshow {
+    
+    display:none; 
     position: absolute;
     width: 100px;
     height: 100px;
