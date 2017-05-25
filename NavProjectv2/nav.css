@@ -273,7 +273,8 @@ body {
 
 .circle {
     position: absolute;
-   margin:auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
     
     
     width: 400px;
