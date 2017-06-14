@@ -8,13 +8,13 @@ table {
     border-collapse:separate;
     border-spacing:25px 25px;
 }
-span {
+td span {
     font-family: arial;
     font-size: 16px;
     font-weight: lighter;
     opacity: 0.8;
 }
-p {
+td p {
     
     color: #666666;
     text-align: left;
@@ -48,12 +48,12 @@ img {
     
     border-left:2px solid #c6c6c6;
 }
-td ,p  {
+td p, td  {
     text-align: center
     
 }
 
-a {
+td a {
     
     text-decoration: none;
 }
